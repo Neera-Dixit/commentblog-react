@@ -4,7 +4,6 @@ import postCommentCss from '../../../public/css/comment.css';
 export default class PostComment extends Component {
     constructor(props) {
         super(props);
-        this.handlePostComment = this.handlePostComment.bind(this);
     }
 
     handlePostComment = (e) => {
